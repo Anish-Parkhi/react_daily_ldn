@@ -1,0 +1,31 @@
+.popOverMainContainer{
+    width: 100%;
+    height: 100vh;
+    flex: 1;
+    justify-content: center;
+}
+.popOverContainerWrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.popOverMainButton{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #0080ff;
+    color: white;
+    border-color: white;
+    border-radius: 0.2rem;
+}
+.popUpContainer{
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 0.5rem;
+    justify-content: center;
+    margin: auto;
+    border-color: black;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
