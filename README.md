@@ -6,9 +6,10 @@
 
 ## Challenge 2: Popover Element
 
-![Popover Element 1](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/99d65752-461e-445a-998d-38cce5e77b11)
+![Popover Element 1](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/87b823c0-fdbd-4cce-aaeb-b29730a2bfca)
 
-![Popover Element 2](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/5ba3fcbc-ad1b-48ed-b1f6-987b1614b8af)
+![Popover Element 2](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/b9984a5b-5b56-40de-b08f-fd7206de4937)
+
 
 ## Challenge 3: To Do List
 
