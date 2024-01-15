@@ -1,0 +1,27 @@
+.navbarMainContainer{
+    background-color: black;
+    color: white;
+}
+.listMainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 2rem;
+    margin: 0px;
+    transition: padding 0.3s ease;
+
+}
+
+@media only screen and (max-width: 600px){
+    .listMainContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .imageContainer{
+        width: 80%;
+    }
+    
+}
