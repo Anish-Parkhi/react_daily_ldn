@@ -1,0 +1,20 @@
+.accordionMainContainer{
+    background-color: #101418;
+    color: white;
+    height: 100vh;
+}
+.accordionContainerWrapper{
+    width: 70%;
+    border: 1px solid rgb(46, 46, 46);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin-top: 5rem;
+    background-color: #13171B;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.accordionContainer{
+    padding: 1rem;
+    background-color: #1E1E1E;
+}
