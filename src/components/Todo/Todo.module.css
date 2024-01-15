@@ -1,0 +1,102 @@
+.todoMainContainer {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.headerContainer {
+  background-color: rgb(71, 71, 71);
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.buttonMainContainer {
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  justify-content: flex-start;
+  text-align: start;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+}
+
+.buttonMainContainer:hover {
+  background-color: grey;
+  color: black;
+  border-color: black;
+}
+.addtasksMainContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputFieldMainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.inputContainer {
+  width: 80%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+.buttonsContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0.2rem;
+  gap: 1rem;
+}
+.addTaskButtonContainer {
+  flex-basis: 45%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: green;
+  color: white;
+}
+.cancelTaskMainContainer {
+  flex-basis: 45%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: red;
+  color: white;
+}
+.tasksMainContainer {
+  width: 62%;
+  font-size: 1.6rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 1rem;
+}
+.tasksListMainContainer {
+  width: 100%;
+  background-color: rgb(75, 75, 75);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 2px solid rgb(137, 137, 137);
+  display: flex;
+  justify-content: space-between;
+}
+.deleteButtonContainer{
+    background-color: red;
+    color: white;
+    border-radius: 0.3rem;
+    box-shadow: white;
+    width: 10%;
+}
