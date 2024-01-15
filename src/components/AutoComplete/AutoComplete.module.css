@@ -1,0 +1,46 @@
+.autoCompleteMainContainer {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  padding: 5rem;
+}
+
+.autoCompleteInnerModule {
+  border: 2px solid rgb(135, 135, 135);
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  background-color: rgb(56, 56, 56);
+}
+.inputbarWrapperContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.inputbarContainer {
+  font-size: 1.3rem;
+}
+.buttonContainer {
+  background-color: #0080ff;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.resultMainContainer {
+  position: absolute;
+  width: 20%;
+  margin-left: 20rem;
+  background-color: grey;
+  color: black;
+  border-radius: 0.4rem;
+  height: 15rem;
+  overflow-y: scroll;
+}
+.innerItemContainer{
+  padding: 0.5rem;
+}
