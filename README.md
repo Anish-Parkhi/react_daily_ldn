@@ -32,7 +32,7 @@
 ![Accordion 2](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/9caaad00-9464-4897-869b-f82d9aa4b53d)
 
 
-## Challenge 5: AutoComplete
+## Challenge 6: AutoComplete
 
 ![AutoComplete 1](https://github.com/Anish-Parkhi/react_daily_ldn/assets/93964690/5080bbe5-8f21-4834-8a8b-05af7582b2d3)
 
