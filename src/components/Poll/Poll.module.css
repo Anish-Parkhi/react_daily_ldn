@@ -1,0 +1,55 @@
+.pollMainContainerWrapper {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  padding: 2rem;
+}
+
+.pollMainContainer {
+  margin: auto;
+  width: 30%;
+  background-color: #904800;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+.pollHeaderContainer {
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.pollOptionsWrapperContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pollOptionsMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f48555;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  width: 80%;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.buttonMainContainer{
+    background-color: #D9D9D9;
+    align-self: flex-end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    color: black;
+    border-radius: 0.2rem;
+    width: 25%;
+}

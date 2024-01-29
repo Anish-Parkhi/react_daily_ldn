@@ -6,12 +6,14 @@ import Navbar from './components/Navbar/Navbar';
 import Scroll from './components/Scroll/Scroll';
 import AutoComplete from './components/AutoComplete/AutoComplete';
 import Todo from './components/Todo/Todo';
+import DebouncedSearchBar from './components/Debounce/Debounce';
+import Poll from './components/Poll/Poll';
 
 function App() {
 
   return (
     <>
-      <AutoComplete />
+      <DebouncedSearchBar />
     </>
   );
 }
