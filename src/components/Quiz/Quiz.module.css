@@ -1,0 +1,27 @@
+.quizMainWrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+
+    margin: auto;
+}
+.questionsWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.optionsInnerContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
