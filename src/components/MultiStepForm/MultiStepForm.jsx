@@ -5,7 +5,7 @@ import Third from './FormComponents/Third';
 import { MyContext } from './MyContext';
 
 function MultiStepForm() {
-  const [data, setData] = useState({ name: '', city: '' });
+  const [data, setData] = useState({name: '', city: ''});
   const [currentStep, setCurrentStep] = useState(1);
   const handleClick = (action) => {
     if (action === 'previous' && currentStep > 1) {
@@ -14,8 +14,15 @@ function MultiStepForm() {
       setCurrentStep((current) => current + 1);
     }
   };
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setData((prev) => {
+      return { ...prev, [name]: value };
+    });
+  };
   return (
-    <MyContext.Provider value={{ data, setData }}>
+    <MyContext.Provider value={{ data, setData, handleChange }}>
       <div>MultiStepForm</div>
       <div>
         {currentStep === 1 ? (

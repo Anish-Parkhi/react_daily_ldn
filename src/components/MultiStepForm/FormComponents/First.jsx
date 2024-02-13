@@ -2,14 +2,8 @@ import React, { useContext } from 'react';
 import { MyContext } from '../MyContext';
 
 function First() {
-  const { data, setData } = useContext(MyContext);
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setData((prev) => {
-      return { ...prev, [name]: value };
-    });
-  };
+  const { data, handleChange } = useContext(MyContext);
+
   return (
     <div>
       <div>First</div>
