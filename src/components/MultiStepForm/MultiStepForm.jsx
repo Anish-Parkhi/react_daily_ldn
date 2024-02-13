@@ -5,7 +5,7 @@ import Third from './FormComponents/Third';
 import { MyContext } from './MyContext';
 
 function MultiStepForm() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState({ name: '', city: '' });
   const [currentStep, setCurrentStep] = useState(1);
   const handleClick = (action) => {
     if (action === 'previous' && currentStep > 1) {
