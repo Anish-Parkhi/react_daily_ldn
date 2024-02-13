@@ -10,12 +10,12 @@ import DebouncedSearchBar from './components/Debounce/Debounce';
 import Poll from './components/Poll/Poll';
 import Quiz from './components/Quiz/Quiz';
 import Form from './components/Form/Form';
+import MultiStepForm from './components/MultiStepForm/MultiStepForm';
 
 function App() {
-
   return (
     <>
-      <Form />
+      <MultiStepForm />
     </>
   );
 }
